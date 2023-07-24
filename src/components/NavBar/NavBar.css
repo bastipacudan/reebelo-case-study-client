@@ -1,0 +1,8 @@
+.c-NavBar__container {
+    display: flex;
+    gap: 1rem;
+}
+
+.c-NavBar__container > li {
+    color: #1808FB;
+}
