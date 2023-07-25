@@ -1,0 +1,19 @@
+.c-AppButton__container {
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    color: #2a2a2a;
+  }
+  .c-AppButton__container:hover {
+    color: #002DD0;
+    border-color: #002DD0;
+  }
