@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { assets } from '../../constants';
 import "./ProductCard.css";
 
@@ -7,6 +7,7 @@ export const ProductCard = ({
     onProductClick = () => {},
 }) => {
     const { name, quantity, price, image } = productInfo;
+    const [imageURL, setImageURL] = useState(image);
     
     const renderProductInfo = () => 
         <div className='c-ProductCard__productInfo_container'>
@@ -20,7 +21,10 @@ export const ProductCard = ({
          className='c-ProductCard__container'
          onClick={onProductClick}
         >
-            <img src={image || assets.productImagePlaceholder}/>
+            <img 
+              src={imageURL}
+              onError={() => setImageURL(assets.productImagePlaceholder)}
+            />
             {renderProductInfo()}
         </div>
     )

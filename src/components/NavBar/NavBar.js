@@ -7,11 +7,17 @@ export const NavBar = () => {
    return (
       <nav>
          <ul className='c-NavBar__container'>
-            <li>
-               <NavLink to="/orders">Orders</NavLink>
+            <li className='c-NavBar__listItem'>
+               <NavLink 
+                className='c-NavBar__listItem'
+                to="/products"
+               >Products</NavLink>
             </li>
             <li>
-               <NavLink to="/products">Products</NavLink>
+               <NavLink 
+                className='c-NavBar__listItem'
+                to="/orders"
+                >Orders</NavLink>
             </li>
          </ul>
       </nav>
