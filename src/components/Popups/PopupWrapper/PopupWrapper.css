@@ -1,0 +1,93 @@
+.c-PopupWrapper__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    box-sizing: border-box;
+    padding: 10.5625rem;
+    padding-top: 3.5rem;
+  }
+  
+  .c-PopupWrapper__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 0.64rem;
+    box-sizing: border-box;
+    padding: 5rem;
+  
+  }
+  
+  .c-PopupWrapper__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    margin-bottom: 2rem;
+  }
+  
+  .c-PopupWrapper__title_container {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-right: 10rem;
+  }
+  
+  .c-PopupWrapper__title {
+    font-weight: 900;
+    color: #2A2A2A;
+    line-height: 2.875rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .c-PopupWrapper__subtitle_container {
+    color: #515151;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .c-PopupWrapper__closeIcon {
+    width: 1.82rem;
+    height: 1.82rem;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  .c-PopupWrapper__footer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .c-PopupWrapper__leftItems {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .c-PopupWrapper__rightItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  .c-PopupWrapper__information_text_container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #002DD0;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.01em;
+    flex-grow: 1;
+  }
+  
+  .popup-overlay {
+    background: rgba(81, 81, 81, 0.5);
+    overflow-y: scroll;
+  }

@@ -8,7 +8,7 @@ export const ProductCard = ({
 }) => {
     const { name, quantity, price, image } = productInfo;
     const [imageURL, setImageURL] = useState(image);
-    
+
     const renderProductInfo = () => 
         <div className='c-ProductCard__productInfo_container'>
             <label className='c-ProductCard__title'>{name || "Product Name Placeholder"}</label>
