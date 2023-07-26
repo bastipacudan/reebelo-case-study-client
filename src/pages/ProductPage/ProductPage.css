@@ -1,0 +1,22 @@
+.p-ProductPage__container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.p-ProductPage__header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 1.92rem;
+    line-height: 115.19%;
+    letter-spacing: -.015em;
+    color: #2b2b2b;
+}
+
+.p-ProductPage__product_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
